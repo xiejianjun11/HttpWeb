@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="CommitDialog.showUntracked"/>
+	<list key="CommitDialog.authorValues">
+		<item value="xiejianjun11 &lt;799185215@qq.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="xiejianjun11 &lt;799185215@qq.com&gt;"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/xiejianjun11/HttpWeb.git"/>
+		<item value="http://github.com/xiejianjun11/HttpWeb.git"/>
+		<item value="ssh://github.com/xiejianjun11/HttpWeb.git"/>
+	</list>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="PushToGerritPage">
+	</section>
+</section>

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+tomcat7Server.shmanage.IEARProjectName=
+tomcat7Server.shmanage.altContextRoot=
+tomcat7Server.shmanage.contextRoot=/shmanage
+tomcat7Server.shmanage.deployIsOverProject=false
+tomcat7Server.shmanage.deploymentPath=D\:\\apache-tomcat-7.0.85\\webapps\\shmanage
+tomcat7Server.shmanage.isDeployed=true
+tomcat7Server.shmanage.isExploded=true
+tomcat7Server.shmanage.isUptoDate=true
+tomcat7Server.shmanage.noFileCopy=false
+tomcat7Server.shmanage.shouldBackup=false
+tomcat7Server.shmanage.shouldOverwrite=false
+tomcat7Server.shmanage.type=WebDeployment
