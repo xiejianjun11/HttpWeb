@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="44" version="2.0">
+<workbench progressCount="13" version="2.0">
 <workbenchAdvisor/>
-<window height="728" maximized="true" width="1024" x="219" y="16">
+<window height="728" width="1024" x="50" y="102">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="266" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="262" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
@@ -23,7 +23,7 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -45,8 +45,6 @@
 </editorArea>
 </editors>
 <views>
-<view id="org.eclipse.team.ui.GenericHistoryView" partName="History"/>
-<view id="org.eclipse.team.sync.views.SynchronizeView" partName="Synchronize"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
 <viewState/>
@@ -90,10 +88,6 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.egit.ui.StagingView" partName="Git Staging">
-<viewState/>
-</view>
-<view id="org.eclipse.egit.ui.ReflogView" partName="Git Reflog"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -321,10 +315,7 @@
 <show_view_action id="org.eclipse.egit.ui.ReflogView"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.egit.ui.StagingView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.egit.ui.StagingView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
 <view id="org.eclipse.team.ui.GenericHistoryView" ratio="0.3"/>
 <view id="org.eclipse.team.sync.views.SynchronizeView" ratio="0.25"/>
 <view id="org.eclipse.egit.ui.StagingView" ratio="0.3"/>
@@ -332,25 +323,17 @@
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@63d6a00c">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.egit.ui.RepositoriesView" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@63d6a00c">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.egit.ui.RepositoriesView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="org.eclipse.ui.internal.ViewStack@63d6a00c">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="978" ratioRight="326" relationship="2" relative="org.eclipse.ui.internal.ViewStack@63d6a00c">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.5" ratioLeft="652" ratioRight="652" relationship="2" relative="org.eclipse.ui.internal.ViewStack@63d6a00c"/>
-<info folder="true" part="bottom" ratio="0.49916804" ratioLeft="300" ratioRight="301" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<info folder="true" part="bottom" ratio="0.49916804" ratioLeft="300" ratioRight="301" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 <page content="org.eclipse.team.sync.views.SynchronizeView" label="LabelNotFound"/>
 <page content="org.eclipse.egit.ui.StagingView" label="LabelNotFound"/>
