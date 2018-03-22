@@ -11,7 +11,7 @@ import cc.edu123.demo3.service.UserService;
 @Controller  
 @RequestMapping("/user") 
 public class UserAction {
-	///1111111111fffffffff
+	///1111111111ffffffffff
 	  @Resource  
 	    private UserService userService;  
 	  
