@@ -11,7 +11,7 @@ import cc.edu123.demo3.service.UserService;
 @Controller  
 @RequestMapping("/user") 
 public class UserAction {
-	
+	///1111111111
 	  @Resource  
 	    private UserService userService;  
 	  
@@ -21,7 +21,7 @@ public class UserAction {
 	        if (username !="" ) {  
 	            model.addAttribute("username", username);  
 	        } else {  
-	            model.addAttribute("username", "δ�ҵ�");  
+	            model.addAttribute("username", "δ�ҵ�");  
 	        }  
 	        return "test";  
 	    } 
